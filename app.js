@@ -71,8 +71,8 @@ function update() {
   totalCheese.innerText = 'Cheese: ' + cheese
 
   let totalClicks = document.getElementById('clicks')
-  let totalClickUpgrade = (1 + pickaxe.quantity * pickaxe.multiplier) + (cart.quantity * cart.multiplier)
-  totalClicks.innerHTML = 'Clicks: ' + totalClickUpgrade
+  let totalClickUpgrade = (pickaxe.quantity * pickaxe.multiplier) + (cart.quantity * cart.multiplier)
+  totalClicks.innerHTML = 'Clicks: ' + (totalClickUpgrade + 1)
 
   let totalIdleUpgrade = (rover.quantity * rover.multiplier) + (miner.quantity * miner.multiplier)
   let idleClicks = document.getElementById('idle-clicks')
