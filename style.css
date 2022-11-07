@@ -1,0 +1,11 @@
+.bg-blue {
+  background-color: rgba(28, 28, 206, 0.512);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border {
+  border: 5px solid white;
+}
